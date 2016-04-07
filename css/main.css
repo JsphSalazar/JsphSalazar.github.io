@@ -287,14 +287,14 @@ ul li {
     margin-bottom: 80px; }
 
 /* ==========================================================================
-  $About
+  $Acerca
 ========================================================================== */
-#about h2{
+#acerca h2{
   text-align: center;
   font-size: 50px;
   margin-bottom: 50px;
   color: #fff; }
-#about p{
+#acerca p{
   text-align: center;
   font-size: 18px;
   margin-bottom: 150px;
@@ -305,9 +305,9 @@ ul li {
     margin-top: 100px; }
 
 /* ==========================================================================
-	$Features
+	$Ayuda
 ========================================================================== */
-.feature {
+.ayuda {
   margin-bottom: 50px; }
   .feature-content {
     padding: 0 15px;
@@ -382,6 +382,29 @@ ul li {
     -ms-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
+    
+/* ==========================================================================
+	$Testimonials
+========================================================================== */
+.testimonials {
+  background-color: #e52e2e;
+  position: relative;
+  padding-bottom: 40px; }
+  .testimonials blockquote {
+    border: 0;
+    margin: 0;
+    padding: 100px 15% 0; }
+  .testimonials p {
+    color: #fff;
+    font: 36px "Cardo", Georgia, "Times New Roman", serif; }
+  .testimonials cite {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 30px;
+    text-transform: uppercase; }
 
 /* ==========================================================================
 	$Download
